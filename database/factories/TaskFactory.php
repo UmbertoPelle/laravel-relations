@@ -9,9 +9,9 @@ use Faker\Generator as Faker;
 $factory->define(Task::class, function (Faker $faker) {
     return [
 
-      'name' => $faker -> firstname(),
+      'name' => $faker -> word(),
       'description' => $faker -> sentence(),
       'date_start' => $faker -> date(),
-      'date_end' => $faker -> date()    
+      'date_end' => $faker -> date()
     ];
 });
