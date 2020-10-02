@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+  background: lightblue;
+}
+
+body ul {
+  list-style: none;
+}
+
+body ul li {
+  margin: 10px 0;
+}
+
+body ul li a {
+  color: white;
+  text-decoration: none;
+}
+

@@ -1,1 +1,15 @@
-//
+body{
+  text-align: center;
+  background: lightblue;
+
+  ul{
+    list-style: none;
+    li{
+      margin: 10px 0;
+      a{
+        color: white;
+        text-decoration:none;
+      }
+    }
+  }
+}
