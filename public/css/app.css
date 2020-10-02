@@ -16,3 +16,7 @@ body ul li a {
   text-decoration: none;
 }
 
+body ul li a:hover {
+  color: yellow;
+}
+
