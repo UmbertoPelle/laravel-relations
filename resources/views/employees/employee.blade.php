@@ -21,6 +21,6 @@
       </li>
     @endforeach
   </ul>
-  <h3><a href="#">Edit</a></h3>
+  <h3><a href={{route('emp-edit', $emp -> id)}}>Edit</a></h3>
   <h3><a href={{ route('emp-delete', $emp -> id )}}>Delete</a></h3>
 @endsection
